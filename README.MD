@@ -13,6 +13,7 @@ steps are
 `virtuelenv/scrips/activate`
 
 after activating the virtual env you run 
+#### I am sure you editor will provide the run command so you just use it 
 
 `python corporation/run_bot.py`
 

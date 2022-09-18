@@ -13,7 +13,7 @@ from corporation.models import Corporation
 
 def CreateCorperationWitJsonFile():
     #  open the json file
-    with open("./petrol_pumps.json", "r") as f:
+    with open("./petrol_pumps.json", "r+") as f:
         for item in json.load(f):
             name = item.get("name")
             address = item.get("address")
