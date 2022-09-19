@@ -1,4 +1,4 @@
-from corporation.bot import PetrolPump
+from bot import PetrolPump
 
 try:
     bot = PetrolPump(teardown=True)

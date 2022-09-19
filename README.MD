@@ -15,11 +15,14 @@ steps are
 after activating the virtual env you run 
 #### I am sure you editor will provide the run command so you just use it 
 
-`python corporation/run_bot.py`
+`python run_bot.py`
 
 after all files has been scraped you need to create the 
 corporation in the models which you scraped
 
-`python corporation/add_json_file.py`
+`python add_json_file.py`
 
 and Crud operating for getting the data scraped
+
+To view the documentaing you can check this link 
+https://documenter.getpostman.com/view/11282359/2s7YtRkFLS
